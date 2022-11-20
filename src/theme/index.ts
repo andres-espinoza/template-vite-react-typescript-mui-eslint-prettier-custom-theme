@@ -84,6 +84,16 @@ const createCustomTheme = (mode: PaletteMode): Theme => {
           },
         },
       },
+      MuiLink: {
+        styleOverrides: {
+          root: {
+            textDecoration: 'none',
+            '&:hover p': {
+              color: mode === 'light' ? colors.pink[500] : colors.blue[400],
+            },
+          },
+        },
+      },
     },
   });
 
