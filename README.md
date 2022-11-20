@@ -3,6 +3,7 @@
 ## Objetivo de la plantilla
 
 El objetivo es **poder comenzar un nuevo proyecto de aprendizaje y diversión de forma rápida** (por eso no configuré vitest aquí, *hehe*), **contando con estándares y herramientas orientadas al mundo profesional**.
+
 Hoy en día es bastante común poder cambiar el modo de color o tema de una aplicación, por lo que dejé personalizado el theme de MUI, abierto a cualquier modificación. También implementé el cambio entre light y dark mode a través de la Context API de React, guardando la preferencia del usuario en el localStorage. 
 
 ### Contenido
