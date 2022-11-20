@@ -1,4 +1,5 @@
 import { Typography, ThemeProvider } from '@mui/material';
+import IconStack from './components/IconStack';
 import SwitchColorMode from './components/SwitchColorMode';
 import MainContainer from './Layouts/MainContainer';
 import createCustomTheme from './theme';
@@ -13,6 +14,7 @@ const App = () => {
       <MainContainer>
         <Typography variant="body1">Hello World!</Typography>
         <SwitchColorMode />
+        <IconStack />
       </MainContainer>
     </ThemeProvider>
   );
