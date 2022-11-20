@@ -34,7 +34,7 @@ El objetivo es poder comenzar un nuevo proyecto de aprendizaje y diversión de f
 
 - Para ver los errores del eslint mientras codeas, solo instala [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens).
 - Si quieres formatear tu código de forma rápida (sin utilizar un comando por consola), instala la extensión de  [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
-Para utilizarlo haz click derecho en la ventana donde estás codeando y dale a la opción *Format document with* para elegir a Prettier. También lo puedes dejar como tu opción por defecto.
+Para utilizarla haz click derecho en la ventana donde estás codeando y dale a la opción *Format document with* para elegir a Prettier. También la puedes dejar como tu opción por defecto.
 El atajo de teclado es `shift + alt + f` para formatear el documento actual en windows.
 - Si necesitas generar tonalidades (*shades*) a partir de un color en código HEX de forma mágica y sin esfuerzo, está la extensión [Tailwind Shades](https://marketplace.visualstudio.com/items?itemName=bourhaouta.tailwindshades) 🧙‍♂️✨
 Solo debes seleccionar el código HEX y presionar `ctrl+k ctrl+g` en windows.
