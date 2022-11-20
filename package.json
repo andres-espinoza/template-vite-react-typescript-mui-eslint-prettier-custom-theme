@@ -1,0 +1,44 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "template of vite project with react and typescript",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host"
+  },
+  "keywords": [],
+  "author": "Andrés Espinoza Delgado",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "3.7.1",
+    "@emotion/react": "11.10.4",
+    "@emotion/styled": "11.10.4",
+    "@mui/icons-material": "5.10.9",
+    "@mui/material": "5.10.9",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@emotion/babel-plugin": "11.10.2",
+    "@types/material-ui": "0.21.12",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "@typescript-eslint/eslint-plugin": "5.40.1",
+    "@typescript-eslint/parser": "5.40.1",
+    "@vitejs/plugin-react": "2.1.0",
+    "eslint": "8.2.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-airbnb-typescript": "17.0.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.31.10",
+    "eslint-plugin-react-hooks": "4.3.0",
+    "prettier": "2.7.1",
+    "typescript": "4.6.4",
+    "vite": "3.1.0"
+  }
+}
