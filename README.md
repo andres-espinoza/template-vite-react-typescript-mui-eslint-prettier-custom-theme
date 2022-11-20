@@ -2,7 +2,7 @@
 
 ## Objetivo de la plantilla
 
-El objetivo es poder comenzar un nuevo proyecto de aprendizaje y diversión de forma rápida (por eso no configuré vitest aquí, *hehe*), contando con herramientas y estándares orientadas al mundo profesional.
+El objetivo es poder comenzar un nuevo proyecto de aprendizaje y diversión de forma rápida (por eso no configuré vitest aquí, *hehe*), contando con estándares y herramientas orientadas al mundo profesional.
 
 ### Contenido
 1. [Stack de herramientas utilizadas 🦾](#stack)
