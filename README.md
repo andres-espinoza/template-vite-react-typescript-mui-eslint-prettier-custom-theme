@@ -1,5 +1,7 @@
 # Plantilla para comenzar un nuevo proyecto rápido 🚀
 
+![Demo de la plantilla](./demo_template.gif)
+
 ## Objetivo de la plantilla
 
 El objetivo es **poder comenzar un nuevo proyecto de aprendizaje y diversión de forma rápida** (por eso no configuré vitest aquí, *hehe*), **contando con estándares y herramientas orientadas al mundo profesional**.
