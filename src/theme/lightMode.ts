@@ -8,6 +8,9 @@ const lightMode: PaletteOptions = {
   secondary: {
     main: colors.pink[500],
   },
+  icon: {
+    activeIcon: colors.pink[500],
+  },
   neutral: {
     dark: colors.grey[700],
     main: colors.grey[500],
