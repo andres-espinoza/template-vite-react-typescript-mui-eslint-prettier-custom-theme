@@ -7,7 +7,6 @@ const MainContainer = ({
 }) => {
   return (
     <Container
-      maxWidth="xl"
       sx={{
         backgroundColor: 'background.default',
         height: '100vh',
@@ -15,6 +14,8 @@ const MainContainer = ({
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
+        gap: '1rem',
+        maxWidth: '100vw !important',
       }}
     >
       {children}
