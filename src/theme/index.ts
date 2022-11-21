@@ -1,5 +1,5 @@
 import { createTheme, PaletteMode, Theme } from '@mui/material';
-import colors from './colors';
+import customColors from './customColors';
 import darkMode from './darkMode';
 import lightMode from './lightMode';
 
@@ -58,7 +58,10 @@ const createCustomTheme = (mode: PaletteMode): Theme => {
       MuiTypography: {
         styleOverrides: {
           root: {
-            color: mode === 'light' ? colors.grey[900] : colors.white[200],
+            color:
+              mode === 'light'
+                ? customColors.grey[900]
+                : customColors.white[200],
           },
         },
       },
@@ -89,7 +92,10 @@ const createCustomTheme = (mode: PaletteMode): Theme => {
           root: {
             textDecoration: 'none',
             '&:hover p': {
-              color: mode === 'light' ? colors.pink[500] : colors.blue[400],
+              color:
+                mode === 'light'
+                  ? customColors.pink[500]
+                  : customColors.blue[400],
             },
           },
         },

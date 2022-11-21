@@ -4,8 +4,8 @@ import {
   ColorModeProviderProps,
   ColorModeContextValue,
 } from '../types/colorMode';
-import restoreColorMode from '../utils/restoreColorMode';
-import storeColorMode from '../utils/storeColorMode';
+import restoreColorMode from '../theme/utils/restoreColorMode';
+import storeColorMode from '../theme/utils/storeColorMode';
 
 const defaultMode: PaletteMode = 'dark';
 

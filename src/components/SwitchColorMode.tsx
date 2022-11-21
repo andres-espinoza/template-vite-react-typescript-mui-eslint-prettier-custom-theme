@@ -1,5 +1,5 @@
 import { Typography, Switch } from '@mui/material';
-import { useColorMode, useSaveMode } from '../theme/hooks';
+import { useColorMode, useSaveMode } from '../hooks/useColorMode';
 
 const SwitchColorMode = () => {
   const mode = useColorMode();

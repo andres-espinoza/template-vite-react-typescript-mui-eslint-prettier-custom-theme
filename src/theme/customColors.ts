@@ -1,4 +1,4 @@
-const colors = {
+const customColors = {
   grey: {
     100: '#e0e0e0',
     200: '#c2c2c2',
@@ -67,4 +67,4 @@ const colors = {
   },
 };
 
-export default colors;
+export default customColors;

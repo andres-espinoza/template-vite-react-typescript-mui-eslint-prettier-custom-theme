@@ -1,26 +1,26 @@
 import { PaletteOptions } from '@mui/material';
-import colors from './colors';
+import customColors from './customColors';
 
 const lightMode: PaletteOptions = {
   primary: {
-    main: colors.pink[500],
+    main: customColors.pink[500],
   },
   secondary: {
-    main: colors.pink[500],
+    main: customColors.pink[500],
   },
   icon: {
-    activeIcon: colors.pink[500],
+    activeIcon: customColors.pink[500],
   },
   neutral: {
-    dark: colors.grey[700],
-    main: colors.grey[500],
-    light: colors.grey[100],
+    dark: customColors.grey[700],
+    main: customColors.grey[500],
+    light: customColors.grey[100],
   },
   text: {
-    primary: colors.pink[500],
+    primary: customColors.pink[500],
   },
   background: {
-    default: colors.white[100],
+    default: customColors.white[100],
   },
 };
 

@@ -3,7 +3,7 @@ import IconStack from './components/IconStack';
 import SwitchColorMode from './components/SwitchColorMode';
 import MainContainer from './Layouts/MainContainer';
 import createCustomTheme from './theme';
-import { useColorMode } from './theme/hooks';
+import { useColorMode } from './hooks/useColorMode';
 
 const App = () => {
   const mode = useColorMode();
