@@ -6,8 +6,7 @@ import {
 } from '../types/colorMode';
 import restoreColorMode from '../theme/utils/restoreColorMode';
 import storeColorMode from '../theme/utils/storeColorMode';
-
-const defaultMode: PaletteMode = 'dark';
+import { defaultMode } from '../theme';
 
 const ColorModeContext = createContext<ColorModeContextValue>({
   mode: defaultMode,

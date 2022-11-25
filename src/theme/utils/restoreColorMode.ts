@@ -1,4 +1,5 @@
 import { PaletteMode } from '@mui/material';
+import { defaultMode } from '..';
 
 const restoreColorMode = (): PaletteMode | null => {
   let mode: PaletteMode | null = null;
@@ -7,7 +8,7 @@ const restoreColorMode = (): PaletteMode | null => {
     if (storedMode && (storedMode === 'dark' || storedMode === 'light')) {
       mode = storedMode;
     } else {
-      mode = 'dark';
+      mode = defaultMode;
     }
   } catch (err) {
     console.error(err);

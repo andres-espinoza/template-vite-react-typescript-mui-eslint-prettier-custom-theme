@@ -3,8 +3,10 @@ import customColors from './customColors';
 import darkMode from './darkMode';
 import lightMode from './lightMode';
 
+export const defaultMode: PaletteMode = 'dark';
+
 const createCustomTheme = (mode: PaletteMode): Theme => {
-  if (!mode) mode = 'dark';
+  if (!mode) mode = defaultMode;
 
   const theme = createTheme({
     palette: {
