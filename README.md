@@ -28,8 +28,8 @@ Hoy en día es bastante común poder cambiar el modo de color o tema de una apli
 <a id="how"></a>
 ### ¿Cómo utilizo la plantilla? 🤔
 
-1. Debes clonar este repositorio.
-2. Acceder a la carpeta donde quedó clonado.
+1. Debes forkear este repositorio o descargar el código comprimido.
+2. Acceder a la carpeta donde quedó guardado en local.
 3. Abrir una terminal y ejecutar el comando `npm i` para instalar las dependencias declaradas en el archivo *package.json*.
 4. Para correr el proyecto solo debes ejecutar el comando `npm run dev`. Recordar que los comandos disponibles se encuentran en el archivo *package.json*, en los `"scripts"`.
 
